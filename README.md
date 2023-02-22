@@ -60,7 +60,7 @@
 	
   <h1>
     <p align="center">
-        <a href="https://cloud.okteto.com/deploy?repository=https://github.com/ALTRON-XD/KRISTY">
+        <a href="https://cloud.okteto.com/deploy?repository=https://github.com/Recordu/KRISTY">
             <img src="https://img.shields.io/badge/Deploy%20On%20Okteto-informational?style=for-the-badge&logo=Okteto" alt="Deploy">
         </a>
 </h1>
