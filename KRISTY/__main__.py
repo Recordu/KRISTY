@@ -114,12 +114,12 @@ buttons = [
         InlineKeyboardButton(text="ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="KRISTY_"),
-        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url=f"https://t.me/{OWNER_USERNAME}"),
+        InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="Lord Lucifer"),
+        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url=f"https://t.me/Lucifer_Is_Star"),
     ],
     [
-        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/{SUPPORT_CHAT}"),
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/{UPDATES_CHANNEL}"),
+        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/avengers_support_group"),
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/Avengersbotz"),
     ],
 ]
 
@@ -250,7 +250,7 @@ def start(update: Update, context: CallbackContext):
                 start_txt.format(usr.first_name), parse_mode=ParseMode.MARKDOWN
             )
             time.sleep(1.2)
-            lel.edit_text(f"ᴡᴀɪᴛ ʙᴀʙʏ🖤! ʟᴇᴛ ᴍᴇ ɢᴇᴛ ꜱᴛᴀʀᴛᴇᴅ \nꜱᴏ ᴛʜᴀᴛ ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴍʏ ᴘᴏᴡᴇʀ🤌❤️")
+            lel.edit_text(f"Are Bhai Ruk ja start to hone de tab use kr lena na 🤌❤️")
             time.sleep(1.2)
             lel.delete()
             K = update.effective_message.reply_sticker(
@@ -275,7 +275,7 @@ def start(update: Update, context: CallbackContext):
     else:
         update.effective_message.reply_photo(
             START_IMG,
-            caption="ʜᴇʏ `{}`,\n\nɪ ᴀᴍ ᴀʟɪᴠᴇ ʙᴀʙʏ🖤!\n➥ᴜᴘᴛɪᴍᴇ: `{}` \n➥ᴜsᴇʀs: `{}` \n➥ᴄʜᴀᴛs: `{}` ".format(
+            caption="ʜᴇʏ `{}`,\n\nɪ Ham abhi zinda hu🖤!\n➥ᴜᴘᴛɪᴍᴇ: `{}` \n➥ᴜsᴇʀs: `{}` \n➥ᴄʜᴀᴛs: `{}` ".format(
                 usr.first_name,
                 uptime,
                 sql.num_users(),
@@ -291,7 +291,7 @@ def start(update: Update, context: CallbackContext):
                         ),
                         InlineKeyboardButton(
                             text="ᴏᴡɴᴇʀ",
-                            url=f"https://t.me/{OWNER_USERNAME}",
+                            url=f"https://t.me/Lucifer_Is_Star",
                         ),
                     ],
                 ]
@@ -423,9 +423,9 @@ def help_button(update, context):
 
 def KRISTY_about_callback(update, context):
     query = update.callback_query
-    if query.data == "KRISTY_":
+    if query.data == "Lucifer":
         query.message.edit_text(
-            text=f"๏ I'm [{BOT_NAME}](https://t.me/Miss_Kristy_bot), ᴀ ᴘᴏᴡᴇʀꜰᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ʙᴜɪʟᴛ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴇᴀꜱɪʟʏ."
+            text=f"๏ I'm [{BOT_NAME}](https://t.me/Avengers_Robot), ᴀ ᴘᴏᴡᴇʀꜰᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ʙᴜɪʟᴛ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴇᴀꜱɪʟʏ."
             "\n» ɪ ᴄᴀɴ ʀᴇꜱᴛʀɪᴄᴛ ᴜꜱᴇʀꜱ."
             "\n» ɪ ᴀᴍ ʙᴜɪʟᴛ ᴡɪᴛʜ [ᴘʏᴛʜᴏɴ](https://www.python.org/) ,[ᴍᴏɴɢᴏᴅʙ](https://www.mongodb.com/)."
             "\n» ᴍʏ ʙᴀꜱᴇ ɪꜱ ᴍᴀᴅᴇ ᴜᴘ ᴏꜰ [ᴛᴇʟᴇᴛʜᴏɴ](https://github.com/LonamiWebs/Telethon) ᴀɴᴅ [ᴘʏʀᴏɢʀᴀᴍ](https://github.com/pyrogram/pyrogram)."
@@ -440,21 +440,21 @@ def KRISTY_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url=f"https://t.me/{OWNER_USERNAME}"),
-        InlineKeyboardButton(text="ᴅᴇᴠᴇʟᴏᴘᴇʀ", url=f"https://t.me/i_am_pro_king"),
+        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url=f"https://t.me/Lucifer_Is_Star"),
+        InlineKeyboardButton(text="ᴅᴇᴠᴇʟᴏᴘᴇʀ", url=f"https://t.me/Lucifer_Is_Star"),
                  ],
                  [
-        InlineKeyboardButton(text="ꜱᴏᴜʀᴄᴇ", url=f"https://github.com/ALTRON-XD/KRISTY"),
+        InlineKeyboardButton(text="ꜱᴏᴜʀᴄᴇ", url=f"Land le lo vaii"),
                  ],
                  [
-                    InlineKeyboardButton(text="◁", callback_data="KRISTY_back"),
+                    InlineKeyboardButton(text="◁", callback_data="Lucifer_back"),
                  ]
                 ]
             ),
         )
 
 
-    elif query.data == "KRISTY_back":
+    elif query.data == "Lucifer_back":
         first_name = update.effective_user.first_name
         uptime = get_readable_time((time.time() - StartTime))
         query.message.edit_text(
@@ -475,7 +475,7 @@ def KRISTY_about_callback(update, context):
 
 def Source_about_callback(update, context):
     query = update.callback_query
-    if query.data == "source_":
+    if query.data == "Land":
         query.message.edit_text(
             text="๏›› soon",
             parse_mode=ParseMode.MARKDOWN,
@@ -483,7 +483,7 @@ def Source_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="◁", callback_data="KRISTY_")
+                    InlineKeyboardButton(text="◁", callback_data="Lucifer")
                  ]
                 ]
             ),
@@ -728,7 +728,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 1820525265:
+        if OWNER_ID != 6298055264:
             update.effective_message.reply_text(
                 "ɪ'ᴍ ꜰʀᴇᴇ ꜰᴏʀ ᴇᴠᴇʀʏᴏɴᴇ 🖤 ɪꜰ ʏᴏᴜ ᴡᴀɴɴᴀ ᴍᴀᴋᴇ ᴍᴇ ꜱᴍɪʟᴇ, ᴊᴜꜱᴛ ᴊᴏɪɴ"
                 "[My Channel]({})".format(DONATION_LINK),
@@ -781,7 +781,7 @@ def main():
                 caption=f"""
 ㅤ{dispatcher.bot.first_name} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ .....
 ━━━━━━━━━━━━━
-» **ᴏᴡɴᴇʀ :** [ᴀʟᴏɴᴇ](https://t.me/{OWNER_USERNAME})
+» **ᴏᴡɴᴇʀ :** [Lucifer](https://t.me/Lucifer_Is_Star)
 » **ʟɪʙʀᴀʀʏ  :** `{so}`
 » **ᴛᴇʟᴇᴛʜᴏɴ :** `{am}`
 » **ᴘʏʀᴏɢʀᴀᴍ :** `{do}`
@@ -789,7 +789,7 @@ def main():
 » **ꜱQʟᴀʟᴄʜᴇᴍʏ :** `1.4.31`
 ━━━━━━━━━━━━━
 
-⍟ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : [𝙆𝙍𝙄𝙎𝙏𝙔](https://t.me/KRISTY_AF)
+⍟ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : [Lucifer](https://t.me/Lucifer_Is_Star)
 
 """,
                 parse_mode=ParseMode.MARKDOWN,
@@ -815,7 +815,7 @@ def main():
     )
 
     about_callback_handler = CallbackQueryHandler(
-        KRISTY_about_callback, pattern=r"KRISTY_", run_async=True
+        KRISTY_about_callback, pattern=r"Lucifer", run_async=True
     )
 
     source_callback_handler = CallbackQueryHandler(
@@ -861,7 +861,7 @@ def main():
 
 if __name__ == "__main__":
     LOGGER.info(
-        f"BOT STARTED SUCCESSFULLY IF YOU FACE ANY ISSUE THEN JOIN @KRISTY_AF : {str(ALL_MODULES)}"
+        f"BOT STARTED SUCCESSFULLY IF YOU FACE ANY ISSUE THEN JOIN @avengers_support_group : {str(ALL_MODULES)}"
     )
     telethn.start(bot_token=TOKEN)
     pbot.start()
