@@ -291,7 +291,7 @@ def start(update: Update, context: CallbackContext):
                         ),
                         InlineKeyboardButton(
                             text="ᴏᴡɴᴇʀ",
-                            url=f"https://t.me/Lucifer_Is_Star",
+                            url=f"https://t.me/The_Lucifer_Was_Bot",
                         ),
                     ],
                 ]
@@ -440,8 +440,8 @@ def KRISTY_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url=f"https://t.me/Lucifer_Is_Star"),
-        InlineKeyboardButton(text="ᴅᴇᴠᴇʟᴏᴘᴇʀ", url=f"https://t.me/Lucifer_Is_Star"),
+        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url=f"https://t.me/The_Lucifer_Was_Bot"),
+        InlineKeyboardButton(text="ᴅᴇᴠᴇʟᴏᴘᴇʀ", url=f"https://t.me/The_Lucifer_Was_Bot"),
                  ],
                  [
         InlineKeyboardButton(text="ꜱᴏᴜʀᴄᴇ", url=f"Land le lo vaii"),
@@ -781,7 +781,7 @@ def main():
                 caption=f"""
 ㅤ{dispatcher.bot.first_name} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ .....
 ━━━━━━━━━━━━━
-» **ᴏᴡɴᴇʀ :** [Lucifer](https://t.me/Lucifer_Is_Star)
+» **ᴏᴡɴᴇʀ :** [Lucifer](https://t.me/The_Lucifer_Was_Bot)
 » **ʟɪʙʀᴀʀʏ  :** `{so}`
 » **ᴛᴇʟᴇᴛʜᴏɴ :** `{am}`
 » **ᴘʏʀᴏɢʀᴀᴍ :** `{do}`
@@ -789,7 +789,7 @@ def main():
 » **ꜱQʟᴀʟᴄʜᴇᴍʏ :** `1.4.31`
 ━━━━━━━━━━━━━
 
-⍟ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : [Lucifer](https://t.me/Lucifer_Is_Star)
+⍟ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : [Lucifer](https://t.me/The_Lucifer_Was_Bot)
 
 """,
                 parse_mode=ParseMode.MARKDOWN,
