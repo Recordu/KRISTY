@@ -115,11 +115,11 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="Lord Lucifer"),
-        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url=f"https://t.me/Lucifer_Is_Star"),
+        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url=f"https://t.me/The_Lucifer_Was_Bot"),
     ],
     [
-        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/avengers_support_group"),
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/Avengersbotz"),
+        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/wilderharley_650"),
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/about_lucifer1"),
     ],
 ]
 
